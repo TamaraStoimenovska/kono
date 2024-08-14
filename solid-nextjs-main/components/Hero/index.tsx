@@ -17,9 +17,6 @@ const Hero = () => {
             <div className=" md:w-1/2">
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
               Transform your business with <span className="text-[#AA1012]">LLM</span> and <span className="text-[#D35400]">Enterprise</span> AI Experts
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  SaaS
-                </span>
               </h1>
               <p>
                 We help you automate your business with specialized robots who can help your employees and customers with your data & knowledge.
@@ -45,18 +42,6 @@ const Hero = () => {
                 </form>
               </div>
             </div>
-            {/* <div className="animate_right hidden md:w-1/2 lg:block">
-            <div className="relative ">
-                <Image
-                  src="/images/hero/hero.svg"
-                  alt="shape"
-                  width={450}
-                  height={5}
-                  className="top-0"
-                />
-              </div>
-            </div> */}
-
             <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
                 <Image
@@ -64,7 +49,6 @@ const Hero = () => {
                   alt="shape"
                   width={500}
                   height={5}
-               
                 />
               </div>
             </div>
