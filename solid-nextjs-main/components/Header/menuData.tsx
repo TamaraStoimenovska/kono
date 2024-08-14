@@ -5,75 +5,37 @@ const menuData: Menu[] = [
     id: 1,
     title: "OUR PROCESS",
     newTab: false,
-    path: "/",
+    path: "#hero",  // Matches the Hero component
   },
   {
     id: 2,
     title: "SERVICES",
     newTab: false,
-    path: "/#features",
+    path: "#brands",  // Matches the FeaturesTab component
   },
   {
     id: 2.1,
     title: "TEAM",
     newTab: false,
-    path: "/blog",
+    path: "#feature",  // Matches the About component
   },
   {
     id: 2.3,
     title: "CLIENTS",
     newTab: false,
-    path: "/docs",
+    path: "#integration",  // Matches the Brands component
   },
   {
     id: 3,
     title: "BLOG",
     newTab: false,
-    // submenu: [
-    //   {
-    //     id: 31,
-    //     title: "Blog Grid",
-    //     newTab: false,
-    //     path: "/blog",
-    //   },
-    //   {
-    //     id: 34,
-    //     title: "Sign In",
-    //     newTab: false,
-    //     path: "/auth/signin",
-    //   },
-    //   {
-    //     id: 35,
-    //     title: "Sign Up",
-    //     newTab: false,
-    //     path: "/auth/signup",
-    //   },
-    //   {
-    //     id: 35,
-    //     title: "Docs",
-    //     newTab: false,
-    //     path: "/docs",
-    //   },
-    //   {
-    //     id: 35.1,
-    //     title: "Support",
-    //     newTab: false,
-    //     path: "/support",
-    //   },
-    //   {
-    //     id: 36,
-    //     title: "404",
-    //     newTab: false,
-    //     path: "/error",
-    //   },
-    // ],
+    path: "#blog",  // Matches the Blog component
   },
-
   {
     id: 4,
     title: "CONTACT",
     newTab: false,
-    path: "/support",
+    path: "#contact",  // Matches the Contact component
   },
 ];
 

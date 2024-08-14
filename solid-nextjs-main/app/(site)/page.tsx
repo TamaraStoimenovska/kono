@@ -14,27 +14,45 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-  description: "This is Home for Solid Pro",
+  title: "Kono.io",
+  description: "Transform your business with LLM and Enterprise AI Experts",
   // other metadata
 };
 
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <Brands />
-      <About />
-      <FunFact />
-      <FeaturesTab />
-      <Feature />
-      <Integration />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="brands">
+        <Brands />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="funfact">
+        <FunFact />
+      </section>
+      <section id="featuresTab">
+        <FeaturesTab />
+      </section>
+      <section id="feature">
+        <Feature />
+      </section>
+      <section id="integration">
+        <Integration />
+      </section>
       {/* <CTA /> */}
       {/* <FAQ /> */}
       {/* <Testimonial />
       <Pricing /> */}
-      <Blog />
-      <Contact />
+      <section id="blog">
+        <Blog />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </main>
   );
 }
