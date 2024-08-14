@@ -3,45 +3,44 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    icon: "/images/user/user-01.png",
+    title: "Rahul Singh",
+    subtitle: "CEO",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Rahul is the visionary leader driving our company forward. With a relentless passion for innovation, he’s at the helm, steering us toward new horizons in AI and technology.",
   },
   {
     id: 2,
-    icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    icon: "/images/user/user-01.png",
+    title: "Eric Ramseur",
+    subtitle: 'Founder and Head of Growth',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Eric is the driving force behind our growth strategy. His entrepreneurial spirit and innovative thinking are key to expanding our reach and taking our company to new heights.",
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    icon: "/images/user/user-01.png",
+    title: "Danielle Crispino",
+    subtitle: 'Head of Operations',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Danielle is the powerhouse behind our seamless operations. Her strategic mindset and attention to detail ensure that everything runs like clockwork, keeping us efficient and ahead of the curve.",
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    icon: "/images/user/user-01.png",
+    title: "Allison Nokes",
+    subtitle: 'Head of Success',
+    
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Allison is the heartbeat of our customer success. She’s dedicated to ensuring our clients thrive, turning their goals into achievements with her unwavering commitment and expert guidance.",
   },
   {
     id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    icon: "/images/user/user-01.png",
+    title: "Stefan Nikolovski",
+    subtitle: 'Head of Development',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-  },
-  {
-    id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Stefan is the architect of our cutting-edge solutions. With his deep technical expertise, he brings our ideas to life, pushing the boundaries of what’s possible in software development.",
   },
 ];
 

@@ -11,18 +11,17 @@ const Integration = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: `INTEGRATIONS`,
-              subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              title: `OUR EXPERTISE`,
+              subtitle: `Trusted by Industry Leaders`,
+              description: ``,
             }}
           />
-
           {/* <!-- Section Title End --> */}
         </div>
 
         <div className="pattern-dots pattern-blue-500 pattern-bg-white pattern-size-4 pattern-opacity-10 relative z-50 mx-auto mt-15 max-w-c-1154 px-4 md:px-8 xl:mt-20 xl:px-0">
           <div className="absolute -top-3/4 left-0 right-0 -z-1 mx-auto h-full w-full">
-            <Image
+            {/* <Image
               width={1200}
               height={400}
               sizes="(max-width: 768px) 100vw"
@@ -30,7 +29,7 @@ const Integration = () => {
               alt="Dotted"
               className="dark:hidden"
               style={{ position: "static" }}
-            />
+            /> */}
             <Image
               fill
               src="/images/shape/shape-dotted-dark.svg"
@@ -59,9 +58,9 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-07.svg"
+                  width={100}
+                  height={100}
+                  src="./images/brand/MCDONALDS.svg"
                   alt="Brand"
                 />
               </div>
@@ -106,9 +105,9 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-08.svg"
+                  width={80}
+                  height={80}
+                  src="./images/brand/KROGER.svg"
                   alt="Brand"
                 />
               </div>
@@ -155,9 +154,9 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-09.svg"
+                  width={150}
+                  height={150}
+                  src="./images/brand/INTUIT.svg"
                   alt="Brand"
                 />
               </div>
@@ -223,9 +222,9 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-10.svg"
+                  width={70}
+                  height={70}
+                  src="./images/brand/APPLE.svg"
                   alt="Brand"
                 />
               </div>
@@ -272,9 +271,9 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-11.svg"
+                  width={150}
+                  height={150}
+                  src="./images/brand/MCKINSEY.svg"
                   alt="Brand"
                 />
               </div>
@@ -299,34 +298,6 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="h-[15px] w-[15px] rounded-full bg-[#016BFF]"></div>
-            </motion.div>
-
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_top w-1/6"
-            >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-12.svg"
-                  alt="Brand"
-                />
-              </div>
             </motion.div>
           </div>
         </div>
