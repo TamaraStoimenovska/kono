@@ -13,15 +13,15 @@ const Hero = () => {
   return (
     <>
       <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46"
-       style={{
-        backgroundImage: `url('/images/backgrounds/heroBackground.png')`, backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
-      }}>
+        style={{
+          backgroundImage: `url('/images/backgrounds/heroBackground.png')`, backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover'
+        }}>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-              Transform your business with <span className="text-[#AA1012]">LLM</span> and <span className="text-[#D35400]">Enterprise</span> AI Experts
+                Transform your business with <span className="text-[#AA1012]">LLM</span> and <span className="text-[#D35400]">Enterprise</span> AI Experts
               </h1>
               <p>
                 We help you automate your business with specialized robots who can help your employees and customers with your data & knowledge.

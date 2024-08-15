@@ -5,7 +5,13 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="border-t border-stroke">
+
+
+
+      <footer className="border-t border-stroke"
+        style={{
+          backgroundImage: `url('/images/backgrounds/footerBackground.png')`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat',
+        }}>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0"
         >
           {/* <!-- Footer Top --> */}
@@ -416,6 +422,7 @@ const Footer = () => {
           {/* <!-- Footer Bottom --> */}
         </div>
       </footer>
+
     </>
   );
 };
