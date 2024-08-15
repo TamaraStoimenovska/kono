@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
+
 const Hero = () => {
   const [email, setEmail] = useState("");
 
@@ -11,7 +12,10 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46"
+       style={{
+        backgroundImage: `url('/images/backgrounds/heroBackground.png')`,
+      }}>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
@@ -45,7 +49,7 @@ const Hero = () => {
             <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
                 <Image
-                  src="/images/hero/hero.svg"
+                  src="/images/hero/heroImg.png"
                   alt="shape"
                   width={500}
                   height={5}

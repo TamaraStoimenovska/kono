@@ -5,37 +5,37 @@ const menuData: Menu[] = [
     id: 1,
     title: "OUR PROCESS",
     newTab: false,
-    path: "#hero",  // Matches the Hero component
+    path: "#hero",
   },
   {
     id: 2,
     title: "SERVICES",
     newTab: false,
-    path: "#brands",  // Matches the FeaturesTab component
+    path: "#services",
   },
   {
     id: 2.1,
     title: "TEAM",
     newTab: false,
-    path: "#feature",  // Matches the About component
+    path: "#team",
   },
   {
     id: 2.3,
     title: "CLIENTS",
     newTab: false,
-    path: "#integration",  // Matches the Brands component
+    path: "#clients",
   },
   {
     id: 3,
     title: "BLOG",
     newTab: false,
-    path: "#blog",  // Matches the Blog component
+    path: "#blog",
   },
   {
     id: 4,
     title: "CONTACT",
     newTab: false,
-    path: "#contact",  // Matches the Contact component
+    path: "#contact",
   },
 ];
 

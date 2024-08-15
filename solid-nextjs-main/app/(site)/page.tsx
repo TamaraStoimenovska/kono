@@ -1,17 +1,17 @@
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
-import Brands from "@/components/Brands";
-import Feature from "@/components/Features";
 import About from "@/components/About";
-import FeaturesTab from "@/components/FeaturesTab";
 import FunFact from "@/components/FunFact";
-import Integration from "@/components/Integration";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import Clients from "@/components/Clients";
+import Team from "@/components/Team";
+import Services from "@/components/Services";
+import Tools from "@/components/Tools";
 
 export const metadata: Metadata = {
   title: "Kono.io",
@@ -26,7 +26,7 @@ export default function Home() {
         <Hero />
       </section>
       <section id="brands">
-        <Brands />
+        <Tools />
       </section>
       <section id="about">
         <About />
@@ -34,14 +34,14 @@ export default function Home() {
       <section id="funfact">
         <FunFact />
       </section>
-      <section id="featuresTab">
-        <FeaturesTab />
+      <section id="services">
+        <Services />
       </section>
-      <section id="feature">
-        <Feature />
+      <section id="team">
+        <Team />
       </section>
-      <section id="integration">
-        <Integration />
+      <section id="clients">
+        <Clients />
       </section>
       {/* <CTA /> */}
       {/* <FAQ /> */}

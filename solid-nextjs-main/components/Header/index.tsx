@@ -38,7 +38,7 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo2.svg"
+              src="/images/logo/logo.png"
               alt="logo"
               width={119.03}
               height={27}

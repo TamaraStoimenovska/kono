@@ -5,8 +5,9 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+      <footer className="border-t border-stroke">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0"
+        >
           {/* <!-- Footer Top --> */}
           <div className="py-20 lg:py-25">
             <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
@@ -32,21 +33,14 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo2.svg"
+                    src="/images/logo/logo.png"
                     alt="Logo"
                     className="dark:hidden"
-                  />
-                  <Image
-                    width={110}
-                    height={80}
-                    src="/images/logo/logo2.svg"
-                    alt="Logo"
-                    className="hidden dark:block"
                   />
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  We’re experts at automating Generative AI with tools like LangChain, LlamaIndex, Semantic Kernel and ChatGPT Plugins.
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
