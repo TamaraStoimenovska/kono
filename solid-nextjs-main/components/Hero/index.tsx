@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 const Hero = () => {
-  const [email, setEmail] = useState("");
+  // const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -14,7 +14,8 @@ const Hero = () => {
     <>
       <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46"
        style={{
-        backgroundImage: `url('/images/backgrounds/heroBackground.png')`,
+        backgroundImage: `url('/images/backgrounds/heroBackground.png')`, backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
       }}>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">

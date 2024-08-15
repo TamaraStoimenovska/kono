@@ -9,9 +9,10 @@ const FunFact = () => {
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
       <section className="px-4 py-20 md:px-8 lg:py-22.5 2xl:px-0"
-      style={{
-        backgroundImage: `url('/images/backgrounds/FunFactBackground.png')`,
-      }}>
+        style={{
+          backgroundImage: `url('/images/backgrounds/FunFactBackground.png')`, backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover'
+        }}>
         <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg">
           <motion.div
             variants={{
