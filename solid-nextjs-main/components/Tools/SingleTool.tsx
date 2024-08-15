@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import Image from "next/image";
-import { Tool } from "@/types/brand";
+import { Tool } from "@/types/tool";
 import { motion } from "framer-motion";
 
 const SingleTool = ({ tool }: { tool: Tool }) => {
